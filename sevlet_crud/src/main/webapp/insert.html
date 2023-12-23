@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Account Pages</title>
+</head>
+<body>
+<fieldset>
+	<legend style="text-align: center;">Account Pages</legend>
+	<form action="insert" method="post">
+	<table align="center">
+		<tr>
+             <td><label for="id">Id :</label></td>
+             <td><input type="text" name="id" id="id"></td>
+        </tr>
+		<tr>
+             <td><label for="name">Name:</label></td>
+             <td><input type="text" name="name" id="name"></td>
+        </tr>
+        
+        <tr>
+             <td><label for="email">Email id:</label></td>
+             <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+             <td><label for="phone_no">Phone No:</label></td>
+             <td><input type="number" name="phone_no" id="phone_no"></td>
+        </tr>
+        <tr>
+             <td><label for="dob">Date of Birth:</label></td>
+             <td><input type="date" name="dob" id="dob"></td>
+        </tr>
+        <tr>
+             <td><label for="gender">Gender:</label></td>
+             <td><input type="radio" name="gender" id="gender" value="Male">Male
+             <input type="radio" name="gender" id="gender" value="Female">Female</td>
+        </tr>
+        <tr>
+             <td><label for="country">Country Name:</label></td>
+             <td><select name="country" id="country">
+                        <option >India</option>
+                        <option >USA</option>
+                        <option >UK</option>
+                        <option >Canada</option>
+                 </select></td>
+        </tr>
+        <tr>
+             <td><label for="a">Account T&C</label></td>
+             <td><input type="checkbox" name="account" id="a" value="accepted"></td>
+        </tr>
+        <tr>
+             <td> <button>Submit</button><button>Reset</button></td>
+        </tr>
+	</table>
+	</form>
+</fieldset>
+</body>
+</html>
